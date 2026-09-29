@@ -1,0 +1,12 @@
+SEARCH TRACE TABLE
+
+Search Vertex: E
+
+Operation    Vertex Checked    Result
+1            A                 Not Found
+2            B                 Not Found
+3            C                 Not Found
+4            D                 Not Found
+5            E                 Found
+
+Total Comparisons = 5

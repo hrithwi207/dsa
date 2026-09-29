@@ -1,0 +1,32 @@
+# Complexity Analysis
+
+## Adjacency Matrix
+
+Space Complexity: O(V²)
+
+BFS Time Complexity: O(V²)
+
+DFS Time Complexity: O(V²)
+
+Edge Checking: O(1)
+
+Vertex Search: O(V)
+
+
+## Adjacency List
+
+Space Complexity: O(V + E)
+
+BFS Time Complexity: O(V + E)
+
+DFS Time Complexity: O(V + E)
+
+Edge Checking: O(degree)
+
+Vertex Search: O(V)
+
+
+For the given graph:
+
+V = 6
+E = 6

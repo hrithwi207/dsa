@@ -1,0 +1,11 @@
+# Comparison Table
+
+| Operation | Adjacency Matrix | Adjacency List |
+|---|---|---|
+| Space | O(V²) | O(V+E) |
+| BFS | O(V²) | O(V+E) |
+| DFS | O(V²) | O(V+E) |
+| Edge Checking | O(1) | O(degree) |
+| Vertex Search | O(V) | O(V) |
+| Suitable for Sparse Graph | No | Yes |
+| Suitable for Dense Graph | Yes | Less suitable |

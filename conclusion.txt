@@ -1,0 +1,20 @@
+# Conclusion
+
+The graph was implemented using both adjacency matrix and adjacency list.
+
+Both representations produced the same BFS and DFS traversal for the given
+neighbour ordering.
+
+BFS:
+A B C D E F
+
+DFS:
+A B D E F C
+
+The adjacency matrix requires O(V²) space and provides O(1) edge checking.
+
+The adjacency list requires O(V+E) space and provides more efficient graph
+traversal for sparse graphs.
+
+Therefore, the adjacency list is more suitable for a sparse social network
+because it stores only the existing connections and requires less space.

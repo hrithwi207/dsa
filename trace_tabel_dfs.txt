@@ -1,0 +1,15 @@
+
+DFS TRACE TABLE
+
+Start Vertex: A
+
+Step    Current Vertex    Output
+1       A                 A
+2       B                 A B
+3       D                 A B D
+4       E                 A B D E
+5       F                 A B D E F
+6       C                 A B D E F C
+
+Final DFS:
+A B D E F C

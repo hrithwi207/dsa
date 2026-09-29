@@ -1,0 +1,28 @@
+ADJACENCY MATRIX
+  A B C D E F
+A 0 1 1 0 0 0
+B 1 0 0 1 1 0
+C 1 0 0 0 0 1
+D 0 1 0 0 0 0
+E 0 1 0 0 0 1
+F 0 0 1 0 1 0
+
+ADJACENCY LIST
+A -> B -> C -> NULL
+B -> A -> D -> E -> NULL
+C -> A -> F -> NULL
+D -> B -> NULL
+E -> B -> F -> NULL
+F -> C -> E -> NULL
+
+GRAPH TRAVERSAL
+
+MATRIX BFS: A B C D E F
+MATRIX DFS: A B D E F C
+LIST BFS: A B C D E F
+LIST DFS: A B D E F C
+
+SEARCH FOR E
+
+Matrix: Vertex E found at index 4 after 5 comparisons.
+List: Vertex E found at index 4 after 5 comparisons.

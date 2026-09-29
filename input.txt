@@ -1,0 +1,16 @@
+Vertices:
+A B C D E F
+
+Edges:
+A-B
+A-C
+B-D
+B-E
+C-F
+E-F
+
+Starting vertex:
+A
+
+Search vertex:
+E
